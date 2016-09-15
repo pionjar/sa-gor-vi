@@ -1,0 +1,17 @@
+{
+	"version": "0.1.0",
+	"command": "typeup",
+	"isShellCommand": true,
+	"showOutput": "silent",
+	"tasks": [
+		{
+			"taskName": "pdf",
+			"isBuildCommand": true,
+			"args": [ "${workspaceRoot}/content/sa-gor-vi.tup" ]
+		},
+		{
+			"taskName": "html",
+			"args": [ "${workspaceRoot}/content/sa-gor-vi.tup" ]
+		}	
+	]
+}
